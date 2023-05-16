@@ -38,3 +38,24 @@
     outline: none;
     padding: 10px;
 }
+
+/* FABS  */
+
+.fab {
+    position: fixed;
+    padding: 25px;
+    right: 25px;
+    bottom: 25px;
+    font-size: 30px;
+    border-radius: 100%;
+}
+
+.fab-danger {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    left: 25px;
+    bottom: 25px;
+    font-size: 22px;
+    border-radius: 100%;
+}

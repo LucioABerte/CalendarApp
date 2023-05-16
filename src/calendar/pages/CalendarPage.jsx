@@ -3,9 +3,10 @@ import { Calendar } from 'react-big-calendar'
 import "react-big-calendar/lib/css/react-big-calendar.css"
 
 
-import { Navbar, CalendarEvent, CalendarModal } from "../components"
+import { Navbar, CalendarEvent, CalendarModal, DeleteButton } from "../components"
 import { localizer, getMessagesES } from '../../helpers'
 import { useUiStore, useCalendarStore } from "../../hooks"
+import { PlusButton } from "../components"
 
 
 
@@ -68,6 +69,8 @@ export const CalendarPage = () => {
       />
 
       <CalendarModal/>
+      <PlusButton />
+      <DeleteButton />
     </>
   )
 }
